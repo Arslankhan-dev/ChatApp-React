@@ -1,0 +1,8 @@
+export const INCREASE = 'INCREMENT'
+export const DESCREASE = 'DECREMENT'
+
+
+export const SET_AUTH = 'SET_AUTH'
+export const CLEAR_AUTH = 'CLEAR_AUTH'
+export const START_AUTH_LOADING = 'START_AUTH_LOADING'
+export const STOP_AUTH_LOADING = 'STOP_AUTH_LOADING'

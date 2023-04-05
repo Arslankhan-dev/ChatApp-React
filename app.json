@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "ChatApp",
+    "slug": "ChatApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff",
+      "plugins": [
+        [
+          "expo-location",
+          {
+            "locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location."
+          }
+        ]
+      ]
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.arslankhan1.ChatApp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.arslankhan1.ChatApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d2f3f8b6-b5ab-4070-8693-69cc0f512ddd"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/d2f3f8b6-b5ab-4070-8693-69cc0f512ddd"
+    }
+  },
+  "android.config.googleMaps.apiKey": "AIzaSyA641ylyc4yJewogDVcNmrE2qWnLH92VSw",
+  "ios.config.googleMapsApiKey": "AIzaSyA641ylyc4yJewogDVcNmrE2qWnLH92VSw"
+}
